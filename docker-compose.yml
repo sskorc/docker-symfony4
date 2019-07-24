@@ -1,0 +1,6 @@
+php:
+  build: .
+  volumes:
+    - .:/root/app
+  stdin_open: true
+  tty: true
