@@ -4,3 +4,5 @@ php:
     - .:/root/app
   stdin_open: true
   tty: true
+  ports:
+    - 80:8000
